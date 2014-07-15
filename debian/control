@@ -1,0 +1,17 @@
+Source: php5-memcached
+Section: web
+Priority: optional
+Maintainer: Engine Yard Packaging <packaging@engineyard.com>
+Build-Depends: debhelper (>= 7), po-debconf, xsltproc , php5-dev
+Standards-Version: 3.9.1
+
+Package: php5-memcached
+Architecture: any
+Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}
+Description: memcached module for PHP 5
+ PHP extension for interfacing with memcached via libmemcached library
+ .
+ This extension uses libmemcached library to provide API for
+ communicating with memcached servers.
+
+

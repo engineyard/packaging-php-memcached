@@ -1,0 +1,6 @@
+php5-memcached (2.2.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Engine Yard Packaging <packaging@engineyard.com>  Tue, 15 Jul 2014 15:20:43 +0000
+

@@ -1,0 +1,7 @@
+php5-memcached for Debian
+--------------------------
+
+This extension has been created with dh-make-pecl which is part
+of dh-make-php.
+
+ -- Engine Yard Packaging <packaging@engineyard.com>, Tue, 15 Jul 2014 15:20:43 +0000
