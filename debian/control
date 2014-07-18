@@ -7,7 +7,7 @@ Standards-Version: 3.9.1
 
 Package: php5-memcached
 Architecture: any
-Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}
+Depends: libmemcached11, libsasl2-2, ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}
 Description: memcached module for PHP 5
  PHP extension for interfacing with memcached via libmemcached library
  .
